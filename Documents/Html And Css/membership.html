@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Plans - WORKSPACE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="navbar-logo">
+                <img src="workspace.png" alt="WORKSPACE Logo">
+            </a>
+
+            <ul class="navbar-menu">
+                <li><a href="locations.html">Locations</a></li>
+                <li><a href="who-we-serve.html">Who we serve</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <li><a href="workspace-solutions.html">Workspace solutions</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+
+            <div class="navbar-actions">
+                <a href="contact.html" class="btn btn-outline">Contact</a>
+                <button class="btn btn-primary" onclick="openLoginModal()">Login</button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" style="min-height: 60vh;">
+        <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=1920&q=80" alt="Modern workspace"
+            class="hero-background">
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <span class="eyebrow" style="color: rgba(255,255,255,0.9); margin-bottom: 1rem; display: block;">MEMBERSHIP
+                OPTIONS</span>
+            <h1 class="mb-3">Flexible <span class="font-display">membership plans</span></h1>
+            <p class="lead-text" style="color: rgba(255,255,255,0.95);">Choose the workspace that fits your work style.
+                All plans include premium amenities, 24/7 access, and can be upgraded or canceled anytime.</p>
+        </div>
+    </section>
+
+
+    <section class="section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="eyebrow">CHOOSE YOUR PLAN</span>
+                <h2 class="mb-3 tracking-tight">Workspace solutions for <span class="text-gradient">every stage</span>
+                </h2>
+                <p class="lead-text" style="max-width: 750px; margin: 0 auto;">From a single desk to a private
+                    headquarters, find the space that works for you. All plans include WiFi, printing, and community
+                    access.</p>
+            </div>
+
+            <div class="pricing-grid">
+
+                <div class="pricing-card">
+                    <h3 class="pricing-title font-bold">Hot Desk</h3>
+                    <div class="pricing-price">₹299</div>
+                    <p class="pricing-period">per month</p>
+                    <p class="text-base text-secondary mb-4" style="min-height: 60px;">Perfect for freelancers and
+                        remote workers who need flexible workspace without a permanent desk.</p>
+                    <a href="contact.html" class="btn btn-outline mb-4" style="width: 100%;">Get Started</a>
+                    <ul class="pricing-features">
+                        <li><span style="color: var(--primary-color); font-weight: bold; margin-right: 0.5rem;">✓</span>
+                            Access to any open desk</li>
+                        <li><span style="color: var(--primary-color); font-weight: bold; margin-right: 0.5rem;">✓</span>
+                            5 meeting room hours/month</li>
+                        <li><span style="color: var(--primary-color); font-weight: bold; margin-right: 0.5rem;">✓</span>
+                            High-speed WiFi</li>
+                        <li><span style="color: var(--primary-color); font-weight: bold; margin-right: 0.5rem;">✓</span>
+                            Printing & scanning</li>
+                        <li><span style="color: var(--primary-color); font-weight: bold; margin-right: 0.5rem;">✓</span>
+                            Coffee & tea</li>
+                        <li><span style="color: var(--primary-color); font-weight: bold; margin-right: 0.5rem;">✓</span>
+                            Community events</li>
+                        <li><span style="color: #ccc; margin-right: 0.5rem;">✗</span> Dedicated desk</li>
+                        <li><span style="color: #ccc; margin-right: 0.5rem;">✗</span> 24/7 access</li>
+                    </ul>
+                </div>
+
+
+                <div class="pricing-card featured">
+                    <span class="pricing-badge">MOST POPULAR</span>
+                    <h3 class="pricing-title font-bold">Dedicated Desk</h3>
+                    <div class="pricing-price">₹499</div>
+                    <p class="pricing-period">per month</p>
+                    <p class="text-base text-secondary mb-4" style="min-height: 60px;">Your own desk in a shared
+                        workspace with professionals. Perfect for those who want consistency.</p>
+                    <a href="contact.html" class="btn btn-primary mb-4" style="width: 100%;">Get Started</a>
+                    <ul class="pricing-features">
+                        <li><span style="color: var(--primary-color); font-weight: bold; margin-right: 0.5rem;">✓</span>
+                            Your own dedicated desk</li>
+                        <li><span style="color: var(--primary-color); font-weight: bold; margin-right: 0.5rem;">✓</span>
+                            10 meeting room hours/month</li>
+                        <li><span style="color: var(--primary-color); font-weight: bold; margin-right: 0.5rem;">✓</span>
+                            24/7 building access</li>
+                        <li><span style="color: var(--primary-color); font-weight: bold; margin-right: 0.5rem;">✓</span>
+                            High-speed WiFi</li>
+                        <li><span style="color: var(--primary-color); font-weight: bold; margin-right: 0.5rem;">✓</span>
+                            Printing & scanning</li>
+                        <li><span style="color: var(--primary-color); font-weight: bold; margin-right: 0.5rem;">✓</span>
+                            Coffee & tea</li>
+                        <li><span style="color: var(--primary-color); font-weight: bold; margin-right: 0.5rem;">✓</span>
+                            Mail handling & storage</li>
+                        <li><span style="color: var(--primary-color); font-weight: bold; margin-right: 0.5rem;">✓</span>
+                            Personal storage locker</li>
+                        <li><span style="color: var(--primary-color); font-weight: bold; margin-right: 0.5rem;">✓</span>
+                            Ergonomic chair</li>
+                    </ul>
+                </div>
+
+
+                <div class="pricing-card">
+                    <h3 class="pricing-title font-bold">Private Office</h3>
+                    <div class="pricing-price">₹899+</div>
+                    <p class="pricing-period">per month</p>
+                    <p class="text-base text-secondary mb-4" style="min-height: 60px;">Fully furnished private offices
+                        for teams of 1-20. Scale as you grow with flexible terms.</p>
+                    <a href="contact.html" class="btn btn-outline mb-4" style="width: 100%;">Get Started</a>
+                    <ul class="pricing-features">
+                        <li><span style="color: var(--primary-color); font-weight: bold; margin-right: 0.5rem;">✓</span>
+                            Private lockable office</li>
+                        <li><span style="color: var(--primary-color); font-weight: bold; margin-right: 0.5rem;">✓</span>
+                            Unlimited meeting rooms</li>
+                        <li><span style="color: var(--primary-color); font-weight: bold; margin-right: 0.5rem;">✓</span>
+                            24/7 building access</li>
+                        <li><span style="color: var(--primary-color); font-weight: bold; margin-right: 0.5rem;">✓</span>
+                            High-speed WiFi</li>
+                        <li><span style="color: var(--primary-color); font-weight: bold; margin-right: 0.5rem;">✓</span>
+                            Furniture included</li>
+                        <li><span style="color: var(--primary-color); font-weight: bold; margin-right: 0.5rem;">✓</span>
+                            Custom branding options</li>
+                        <li><span style="color: var(--primary-color); font-weight: bold; margin-right: 0.5rem;">✓</span>
+                            Mail handling & storage</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <p style="color: var(--text-secondary);">All prices shown are per person. Volume discounts available for
+                    teams of 10+.</p>
+                <p style="color: var(--text-secondary); margin-top: 0.5rem;">Enterprise solutions with custom pricing
+                    available. <a href="contact.html" style="color: var(--primary-color); font-weight: 600;">Contact
+                        us</a> to learn more.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section bg-gray" style="padding: 2rem 0;">
+        <div class="container">
+            <div class="two-column" style="gap: 2.5rem; align-items: stretch;">
+                <div style="height: 100%;">
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80"
+                        alt="Global access" class="two-column-image" 
+                        style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px; min-height: 500px;">
+                </div>
+                
+                <div>
+                    <span class="overline">GLOBAL ACCESS</span>
+                    <h2 class="mb-3">Work from <span class="text-gradient">anywhere</span></h2>
+                    <h3 class="font-medium text-primary mb-3" style="font-size: 1.5rem; color: var(--primary-color);">
+                        Add +₹150/month to any plan</h3>
+                    <p class="lead-text mb-4">Work from any WORKSPACE location worldwide. Perfect for frequent
+                        travelers, digital nomads, and companies with distributed teams.</p>
+
+                    <h4 class="mb-2 font-semibold">Everything included:</h4>
+                    <ul style="margin: 1rem 0; padding-left: 0; list-style: none;">
+                        <li class="mb-2 text-secondary"><span style="margin-right: 8px;">🌍</span> Access to 500+
+                            locations globally</li>
+                        <li class="mb-2 text-secondary"><span style="margin-right: 8px;">⚡</span> Same-day reservation
+                            availability</li>
+                        <li class="mb-2 text-secondary"><span style="margin-right: 8px;">🕒</span> Priority access
+                            during peak hours</li>
+                        <li class="mb-2 text-secondary"><span style="margin-right: 8px;">✈️</span> Work seamlessly
+                            across time zones</li>
+                    </ul>
+
+                    <div class="card"
+                        style="background: white; padding: 1.5rem; margin-top: 2rem; border-left: 4px solid var(--accent-color);">
+                        <h4 class="mb-2 font-bold">Example: Global Consultant</h4>
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                            <span class="text-secondary">New York dedicated desk</span>
+                            <span class="font-semibold">₹499/mo</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 1rem;">
+                            <span class="text-secondary">Global Access Add-on</span>
+                            <span class="font-semibold text-gradient">+₹150/mo</span>
+                        </div>
+                        <div
+                            style="display: flex; justify-content: space-between; border-top: 1px solid var(--border-color); padding-top: 1rem;">
+                            <span class="font-bold">Total</span>
+                            <span class="font-bold">₹649/month</span>
+                        </div>
+                    </div>
+
+                    <a href="contact.html" class="btn btn-primary mt-4">Add Global Access</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="eyebrow">AMENITIES & PERKS</span>
+                <h2 class="mb-3 tracking-tight">What's included in <span class="text-gradient">every membership</span>
+                </h2>
+                <p class="lead-text">Premium amenities and services to help you do your best work</p>
+            </div>
+
+            <div class="feature-grid">
+                <div class="feature-box">
+                    <div class="feature-box-icon">🛜</div>
+                    <h3 class="font-semibold">High-Speed WiFi</h3>
+                    <p class="text-secondary">Enterprise-grade fiber-optic internet with dedicated bandwidth and backup
+                        connections for reliability.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-box-icon">🖨️</div>
+                    <h3 class="font-semibold">Printing Services</h3>
+                    <p class="text-secondary">Professional color and black & white printing, scanning, and copying.
+                        First 100 pages free monthly.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-box-icon">👥</div>
+                    <h3 class="font-semibold">Meeting Rooms</h3>
+                    <p class="text-secondary">State-of-the-art conference rooms with video conferencing, whiteboards,
+                        and presentation equipment.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-box-icon">☕</div>
+                    <h3 class="font-semibold">Premium Beverages</h3>
+                    <p class="text-secondary">Complimentary specialty coffee, tea, and refreshments available throughout
+                        the day in all locations.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-box-icon">📫</div>
+                    <h3 class="font-semibold">Mail & Packages</h3>
+                    <p class="text-secondary">Professional business address with mail handling and package receiving
+                        services at your location.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-box-icon">🎉</div>
+                    <h3 class="font-semibold">Community Events</h3>
+                    <p class="text-secondary">Exclusive networking events, workshops, happy hours, and professional
+                        development opportunities.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-box-icon">🔐</div>
+                    <h3 class="font-semibold">Secure Access</h3>
+                    <p class="text-secondary">24/7 secure building access with keycard entry, CCTV monitoring, and
+                        on-site security personnel.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-box-icon">🧹</div>
+                    <h3 class="font-semibold">Professional Cleaning</h3>
+                    <p class="text-secondary">Daily cleaning services keep all spaces spotless and professional.
+                        Sanitization protocols maintained.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-box-icon">📞</div>
+                    <h3 class="font-semibold">Phone Booths</h3>
+                    <p class="text-secondary">Private soundproof phone booths throughout the space for confidential
+                        calls and video meetings.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-box-icon">🛎️</div>
+                    <h3 class="font-semibold">On-site Staff</h3>
+                    <p class="text-secondary">Friendly reception desk team available during business hours to greet
+                        guests and assist you.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-box-icon">✂️</div>
+                    <h3 class="font-semibold">Office Supplies</h3>
+                    <p class="text-secondary">Fully stocked supply stations with staplers, paper shredders, pens, and
+                        other office essentials.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-box-icon">🛠️</div>
+                    <h3 class="font-semibold">Tech Support</h3>
+                    <p class="text-secondary">On-demand IT assistance to help you connect to printers, WiFi, and A/V
+                        equipment seamlessly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section feature-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="eyebrow">ADD-ONS</span>
+                <h2 class="mb-3 tracking-tight">Optional <span class="text-gradient">add-on services</span></h2>
+                <p class="lead-text">Enhance your membership with additional services tailored to your needs</p>
+            </div>
+
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-content">
+                        <h3 class="font-semibold">Parking</h3>
+                        <p
+                            style="font-size: 2rem; color: var(--primary-color); margin: 0.5rem 0 1rem; font-weight: 700;">
+                            ₹150<span
+                                style="font-size: 1rem; color: var(--text-secondary); font-weight: 400;">/mo</span></p>
+                        <p class="text-secondary">Reserved parking space in building garage or lot. Available at select
+                            locations. EV charging stations at premium locations.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <h3 class="font-semibold">Extra Meeting Hours</h3>
+                        <p
+                            style="font-size: 2rem; color: var(--primary-color); margin: 0.5rem 0 1rem; font-weight: 700;">
+                            ₹25<span style="font-size: 1rem; color: var(--text-secondary); font-weight: 400;">/hr</span>
+                        </p>
+                        <p class="text-secondary">Additional meeting room time beyond monthly allocation. Book rooms for
+                            client presentations, team meetings, or workshops.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <h3 class="font-semibold">Event Space Rental</h3>
+                        <p
+                            style="font-size: 2rem; color: var(--primary-color); margin: 0.5rem 0 1rem; font-weight: 700;">
+                            ₹500+</p>
+                        <p class="text-secondary">Host company events, training sessions, or presentations. Catering and
+                            A/V support available. Capacity 20-200 people.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <h3 class="font-semibold">Business Services</h3>
+                        <p
+                            style="font-size: 2rem; color: var(--primary-color); margin: 0.5rem 0 1rem; font-weight: 700;">
+                            Custom</p>
+                        <p class="text-secondary">Administrative support, receptionist services, notary services, and
+                            professional business assistance on demand.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <h3 class="font-semibold">Virtual Office</h3>
+                        <p
+                            style="font-size: 2rem; color: var(--primary-color); margin: 0.5rem 0 1rem; font-weight: 700;">
+                            ₹99<span style="font-size: 1rem; color: var(--text-secondary); font-weight: 400;">/mo</span>
+                        </p>
+                        <p class="text-secondary">Professional business address, mail handling, and 5 hours meeting room
+                            access per month. No physical workspace included.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <h3 class="font-semibold">Guest Passes</h3>
+                        <p
+                            style="font-size: 2rem; color: var(--primary-color); margin: 0.5rem 0 1rem; font-weight: 700;">
+                            ₹35<span
+                                style="font-size: 1rem; color: var(--text-secondary); font-weight: 400;">/day</span></p>
+                        <p class="text-secondary">Day passes for guests, clients, or visiting team members. Full access
+                            to workspace and amenities during business hours.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="eyebrow">COMPARE PLANS</span>
+                <h2 class="mb-3 tracking-tight">Compare <span class="text-gradient">membership plans</span></h2>
+                <p class="lead-text">See what's included in each membership tier</p>
+            </div>
+
+            <div style="overflow-x: auto; border-radius: var(--border-radius); box-shadow: var(--shadow-sm);">
+                <table style="width: 100%; border-collapse: collapse; background: white;">
+                    <thead>
+                        <tr style="background: var(--bg-gray);">
+                            <th
+                                style="padding: 1.5rem; text-align: left; border-bottom: 2px solid var(--border-color); font-weight: 600; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.05em; color: var(--text-secondary);">
+                                Feature</th>
+                            <th
+                                style="padding: 1.5rem; text-align: center; border-bottom: 2px solid var(--border-color); font-weight: 700;">
+                                Hot Desk</th>
+                            <th
+                                style="padding: 1.5rem; text-align: center; border-bottom: 2px solid var(--border-color); background: rgba(0, 102, 255, 0.05); font-weight: 700; color: var(--primary-color);">
+                                Dedicated Desk</th>
+                            <th
+                                style="padding: 1.5rem; text-align: center; border-bottom: 2px solid var(--border-color); font-weight: 700;">
+                                Private Office</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td
+                                style="padding: 1rem 1.5rem; border-bottom: 1px solid var(--border-color); font-weight: 500;">
+                                Workspace Access</td>
+                            <td
+                                style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color); color: var(--text-secondary);">
+                                Any open desk</td>
+                            <td
+                                style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color); background: rgba(0, 102, 255, 0.02); font-weight: 500;">
+                                Your own desk</td>
+                            <td
+                                style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color); color: var(--text-secondary);">
+                                Private office</td>
+                        </tr>
+                        <tr>
+                            <td
+                                style="padding: 1rem 1.5rem; border-bottom: 1px solid var(--border-color); font-weight: 500;">
+                                24/7 Access</td>
+                            <td
+                                style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color); color: #ccc;">
+                                ✗</td>
+                            <td
+                                style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color); background: rgba(0, 102, 255, 0.02); color: var(--primary-color); font-weight: bold;">
+                                ✓</td>
+                            <td
+                                style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color); color: var(--primary-color); font-weight: bold;">
+                                ✓</td>
+                        </tr>
+                        <tr>
+                            <td
+                                style="padding: 1rem 1.5rem; border-bottom: 1px solid var(--border-color); font-weight: 500;">
+                                Meeting Room Hours</td>
+                            <td
+                                style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color); color: var(--text-secondary);">
+                                5 hours/mo</td>
+                            <td
+                                style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color); background: rgba(0, 102, 255, 0.02); font-weight: 500;">
+                                10 hours/mo</td>
+                            <td
+                                style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color); color: var(--text-secondary);">
+                                Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td
+                                style="padding: 1rem 1.5rem; border-bottom: 1px solid var(--border-color); font-weight: 500;">
+                                Storage Locker</td>
+                            <td
+                                style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color); color: #ccc;">
+                                ✗</td>
+                            <td
+                                style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color); background: rgba(0, 102, 255, 0.02); color: var(--primary-color); font-weight: bold;">
+                                ✓</td>
+                            <td
+                                style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color); color: var(--primary-color); font-weight: bold;">
+                                ✓</td>
+                        </tr>
+                        <tr>
+                            <td
+                                style="padding: 1rem 1.5rem; border-bottom: 1px solid var(--border-color); font-weight: 500;">
+                                Printing (pages/mo)</td>
+                            <td
+                                style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color); color: var(--text-secondary);">
+                                100</td>
+                            <td
+                                style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color); background: rgba(0, 102, 255, 0.02); font-weight: 500;">
+                                100</td>
+                            <td
+                                style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color); color: var(--text-secondary);">
+                                Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td
+                                style="padding: 1rem 1.5rem; border-bottom: 1px solid var(--border-color); font-weight: 500;">
+                                Guest Passes</td>
+                            <td
+                                style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color); color: var(--text-secondary);">
+                                2/mo</td>
+                            <td
+                                style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color); background: rgba(0, 102, 255, 0.02); font-weight: 500;">
+                                5/mo</td>
+                            <td
+                                style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color); color: var(--text-secondary);">
+                                Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td
+                                style="padding: 1rem 1.5rem; border-bottom: 1px solid var(--border-color); font-weight: 500;">
+                                Custom Branding</td>
+                            <td
+                                style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color); color: #ccc;">
+                                ✗</td>
+                            <td
+                                style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color); background: rgba(0, 102, 255, 0.02); color: #ccc;">
+                                ✗</td>
+                            <td
+                                style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color); color: var(--primary-color); font-weight: bold;">
+                                ✓</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 1rem 1.5rem;">Starting Price</td>
+                            <td
+                                style="padding: 1rem; text-align: center; font-weight: 700; color: var(--primary-color); font-size: 1.1rem;">
+                                ₹299/mo</td>
+                            <td
+                                style="padding: 1rem; text-align: center; font-weight: 700; color: var(--primary-color); background: rgba(0, 102, 255, 0.02); font-size: 1.25rem;">
+                                ₹499/mo</td>
+                            <td
+                                style="padding: 1rem; text-align: center; font-weight: 700; color: var(--primary-color); font-size: 1.1rem;">
+                                ₹899/mo</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="section faq-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="eyebrow">FAQ</span>
+                <h2 class="mb-3">Membership <span class="text-gradient">Questions</span></h2>
+                <p class="lead-text">Common questions about WORKSPACE memberships</p>
+            </div>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">What's the commitment term?</div>
+                    <div class="faq-answer">
+                        <p>We offer month-to-month memberships with no long-term commitment required. You can upgrade,
+                            downgrade, or cancel anytime with 30 days' notice. We also offer 6-month and annual
+                            contracts with discounted rates (10% and 20% off respectively).</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Can I try before I commit?</div>
+                    <div class="faq-answer">
+                        <p>Absolutely! Schedule a tour at any location to see the space and meet the community. We also
+                            offer day passes (₹35) so you can experience WORKSPACE firsthand before becoming a member.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">How do meeting room bookings work?</div>
+                    <div class="faq-answer">
+                        <p>Meeting rooms can be booked through our mobile app or member portal. Reservations are
+                            available up to 30 days in advance. Your monthly allocation of meeting hours rolls over for
+                            one month if unused. Additional hours can be purchased at $25/hour.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">What happens if I need to upgrade my membership?</div>
+                    <div class="faq-answer">
+                        <p>You can upgrade your membership at any time. The change takes effect immediately or on your
+                            preferred date. If upgrading mid-month, we'll prorate the difference. Many members start
+                            with Hot Desk and upgrade to Dedicated Desk or Private Office as their needs grow.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Is there a discount for annual memberships?</div>
+                    <div class="faq-answer">
+                        <p>Yes! Annual memberships receive a 20% discount on monthly rates, and 6-month commitments
+                            receive 10% off. You'll also receive priority access to new locations and exclusive member
+                            benefits. Contact us to discuss annual membership options.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Do you offer team or corporate pricing?</div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer volume discounts for teams of 10 or more members. Enterprise solutions with
+                            custom pricing are available for large organizations. Contact our sales team to discuss your
+                            specific needs and receive a customized quote.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to join WORKSPACE?</h2>
+            <p>Start with a tour of your nearest location</p>
+            <a href="contact.html" class="btn" style="background: white; color: var(--primary-color);">Schedule Your
+                Tour</a>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>WORKSPACE</h3>
+                    <p style="color: rgba(255, 255, 255, 0.7);">Making work work better for everyone. Join the global
+                        community redefining the workplace.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-icon">📘</a>
+                        <a href="#" class="social-icon">🐦</a>
+                        <a href="#" class="social-icon">📷</a>
+                        <a href="#" class="social-icon">🔗</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Solutions</h3>
+                    <ul class="footer-links">
+                        <li><a href="workspace-solutions.html#private-office">Private Office</a></li>
+                        <li><a href="workspace-solutions.html#coworking">Coworking</a></li>
+                        <li><a href="workspace-solutions.html#enterprise">Enterprise</a></li>
+                        <li><a href="membership.html">Membership Plans</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="locations.html">Locations</a></li>
+                        <li><a href="who-we-serve.html">Who We Serve</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 WORKSPACE. All rights reserved. Made for work. Built for business.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeLoginModal()">&times;</button>
+            <h2>Welcome Back</h2>
+            <form>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="your@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="••••••••" required>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Sign In</button>
+                <p style="text-align: center; margin-top: 1rem; color: var(--text-secondary);">
+                    Don't have an account? <a href="contact.html"
+                        style="color: var(--primary-color); font-weight: 600;">Get Started</a>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function openLoginModal() {
+            document.getElementById('loginModal').classList.add('active');
+        }
+
+        function closeLoginModal() {
+            document.getElementById('loginModal').classList.remove('active');
+        }
+
+        window.onclick = function (event) {
+            const modal = document.getElementById('loginModal');
+            if (event.target == modal) {
+                closeLoginModal();
+            }
+        }
+    </script>
+</body>
+
+</html>

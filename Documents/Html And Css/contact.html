@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - WORKSPACE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="navbar-logo">
+                <img src="workspace.png" alt="WORKSPACE Logo">
+            </a>
+
+            <ul class="navbar-menu">
+                <li><a href="locations.html">Locations</a></li>
+                <li><a href="who-we-serve.html">Who we serve</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <li><a href="workspace-solutions.html">Workspace solutions</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+
+            <div class="navbar-actions">
+                <a href="contact.html" class="btn btn-outline">Contact</a>
+                <button class="btn btn-primary" onclick="openLoginModal()">Login</button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" style="min-height: 50vh;">
+        <img src="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1920&q=80" alt="Contact us"
+            class="hero-background">
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <span class="eyebrow" style="color: rgba(255,255,255,0.9); margin-bottom: 1rem; display: block;">CONTACT
+                US</span>
+            <h1 class="mb-3">Get in <span class="font-display">touch</span></h1>
+            <p class="lead-text" style="color: rgba(255,255,255,0.95);">We're here to help you find the perfect
+                workspace solution for your team.</p>
+        </div>
+    </section>
+
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+
+                <div class="contact-form shadow-lg" style="padding: 3rem; border-radius: 12px;">
+                    <h2 class="mb-2 font-bold text-2xl">Send us a message</h2>
+                    <p class="text-secondary mb-5">Fill out the form below and our team will get back to you within 24
+                        hours.</p>
+
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName" class="font-semibold text-sm">First Name *</label>
+                                <input type="text" id="firstName" placeholder="John" required
+                                    style="background: var(--bg-gray);">
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName" class="font-semibold text-sm">Last Name *</label>
+                                <input type="text" id="lastName" placeholder="Doe" required
+                                    style="background: var(--bg-gray);">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="font-semibold text-sm">Email Address *</label>
+                            <input type="email" id="email" placeholder="john.doe@company.com" required
+                                style="background: var(--bg-gray);">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone" class="font-semibold text-sm">Phone Number</label>
+                            <input type="tel" id="phone" placeholder="+1 (555) 123-4567"
+                                style="background: var(--bg-gray);">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company" class="font-semibold text-sm">Company Name</label>
+                            <input type="text" id="company" placeholder="Your Company"
+                                style="background: var(--bg-gray);">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="interest" class="font-semibold text-sm">I'm interested in *</label>
+                            <select id="interest"
+                                style="width: 100%; padding: 0.875rem; border: 2px solid var(--border-color); border-radius: var(--border-radius); font-size: 1rem; background: var(--bg-gray);"
+                                required>
+                                <option value="">Please select...</option>
+                                <option value="hot-desk">Hot Desk Membership</option>
+                                <option value="dedicated-desk">Dedicated Desk</option>
+                                <option value="private-office">Private Office</option>
+                                <option value="enterprise">Enterprise Solutions</option>
+                                <option value="tour">Schedule a Tour</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="location" class="font-semibold text-sm">Preferred Location</label>
+                            <input type="text" id="location" placeholder="City or specific location"
+                                style="background: var(--bg-gray);">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="teamSize" class="font-semibold text-sm">Team Size</label>
+                            <select id="teamSize"
+                                style="width: 100%; padding: 0.875rem; border: 2px solid var(--border-color); border-radius: var(--border-radius); font-size: 1rem; background: var(--bg-gray);">
+                                <option value="">Please select...</option>
+                                <option value="1">Just me</option>
+                                <option value="2-5">2-5 people</option>
+                                <option value="6-10">6-10 people</option>
+                                <option value="11-25">11-25 people</option>
+                                <option value="26-50">26-50 people</option>
+                                <option value="51+">51+ people</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="font-semibold text-sm">Message *</label>
+                            <textarea id="message" placeholder="Tell us more about your needs..." required
+                                style="background: var(--bg-gray);"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary font-bold text-uppercase tracking-wider"
+                            style="width: 100%;">Send Message</button>
+
+                        <p class="text-xs text-secondary mt-3 text-center">
+                            By submitting this form, you agree to our <a href="#"
+                                class="text-primary hover:underline">Privacy Policy</a>
+                        </p>
+                    </form>
+                </div>
+
+
+                <div class="contact-info">
+                    <span class="eyebrow">REACH OUT</span>
+                    <h2 class="mb-4 font-bold text-2xl">Contact Information</h2>
+                    <p class="text-secondary mb-5">Reach out through any of these channels for immediate assistance.</p>
+
+                    <div class="contact-info-item">
+                        <div style="min-width: 24px; font-size: 1.5rem;">📞</div>
+                        <div>
+                            <h4 class="font-bold">Phone</h4>
+                            <p class="text-secondary">+1 (800) WORKSPACE</p>
+                            <p class="text-xs text-secondary uppercase tracking-wide">Mon-Fri, 8am-8pm EST</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div style="min-width: 24px; font-size: 1.5rem;">✉️</div>
+                        <div>
+                            <h4 class="font-bold">Email</h4>
+                            <p class="text-secondary">hello@workspace.com</p>
+                            <p class="text-xs text-secondary uppercase tracking-wide">We respond within 24 hours</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div style="min-width: 24px; font-size: 1.5rem;">📍</div>
+                        <div>
+                            <h4 class="font-bold">Headquarters</h4>
+                            <p class="text-secondary">123 Business Avenue<br>New York, NY 10001<br>United States</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div style="min-width: 24px; font-size: 1.5rem;">💬</div>
+                        <div>
+                            <h4 class="font-bold">Live Chat</h4>
+                            <p class="text-secondary">Available on our website</p>
+                            <p class="text-xs text-secondary uppercase tracking-wide">Mon-Fri, 8am-8pm EST</p>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
+                        <h4 class="font-bold text-lg mb-2">Enterprise Sales</h4>
+                        <p class="text-secondary mb-3">For teams of 10+ or custom solutions</p>
+                        <p class="text-primary font-bold">enterprise@workspace.com</p>
+                        <p class="text-primary font-bold">+1 (800) 123-CORP</p>
+                    </div>
+
+                    <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
+                        <h4 class="font-bold text-sm uppercase tracking-wide mb-3">Follow Us</h4>
+                        <div style="display: flex; gap: 1rem;">
+                            <a href="#"
+                                style="width: 40px; height: 40px; background: var(--primary-color); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.25rem; transition: transform 0.2s;">f</a>
+                            <a href="#"
+                                style="width: 40px; height: 40px; background: var(--primary-color); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.25rem; transition: transform 0.2s;">t</a>
+                            <a href="#"
+                                style="width: 40px; height: 40px; background: var(--primary-color); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.25rem; transition: transform 0.2s;">in</a>
+                            <a href="#"
+                                style="width: 40px; height: 40px; background: var(--primary-color); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.25rem; transition: transform 0.2s;">ig</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="eyebrow">VISIT US</span>
+                <h2 class="mb-3 tracking-tight">Schedule a <span class="text-gradient">Tour</span></h2>
+                <p class="lead-text">Experience WORKSPACE in person before making a decision</p>
+            </div>
+
+            <div class="card-grid">
+                <div class="card bg-gray border-none">
+                    <div class="card-content" style="text-align: center;">
+                        <div
+                            style="width: 60px; height: 60px; margin: 0 auto 1.5rem; background: var(--primary-color); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; font-weight: bold;">
+                            1</div>
+                        <h3 class="font-bold text-lg mb-2">Choose Location</h3>
+                        <p class="text-secondary text-sm">Browse our 500+ locations worldwide and select the one you'd
+                            like to visit.</p>
+                    </div>
+                </div>
+
+                <div class="card bg-gray border-none">
+                    <div class="card-content" style="text-align: center;">
+                        <div
+                            style="width: 60px; height: 60px; margin: 0 auto 1.5rem; background: var(--primary-color); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; font-weight: bold;">
+                            2</div>
+                        <h3 class="font-bold text-lg mb-2">Pick Your Time</h3>
+                        <p class="text-secondary text-sm">Select a convenient date and time. Tours are available
+                            Monday-Saturday.</p>
+                    </div>
+                </div>
+
+                <div class="card bg-gray border-none">
+                    <div class="card-content" style="text-align: center;">
+                        <div
+                            style="width: 60px; height: 60px; margin: 0 auto 1.5rem; background: var(--primary-color); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; font-weight: bold;">
+                            3</div>
+                        <h3 class="font-bold text-lg mb-2">Meet & Explore</h3>
+                        <p class="text-secondary text-sm">Our community team will show you around and answer all your
+                            questions.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <a href="locations.html" class="btn btn-primary text-uppercase tracking-wider font-bold"
+                    style="padding: 1rem 2.5rem;">Book Your Tour Now</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section faq-section bg-gray">
+        <div class="container">
+            <h2 class="text-center mb-5">Common Questions</h2>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question font-semibold">How quickly can I expect a response?</div>
+                    <div class="faq-answer">
+                        <p class="text-secondary">We typically respond to all inquiries within 24 hours during business
+                            days. For urgent matters, please call us directly at +1 (800) WORKSPACE.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question font-semibold">Can I tour multiple locations?</div>
+                    <div class="faq-answer">
+                        <p class="text-secondary">Absolutely! Many members tour 2-3 locations before deciding. You can
+                            book tours at multiple locations through our website or by contacting our team.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question font-semibold">Do you offer virtual tours?</div>
+                    <div class="faq-answer">
+                        <p class="text-secondary">Yes, we offer virtual tours via video call for those who can't visit
+                            in person. Contact us to schedule a virtual walkthrough of any location.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question font-semibold">Is there a sales consultation fee?</div>
+                    <div class="faq-answer">
+                        <p class="text-secondary">No, all consultations, tours, and quotes are completely free with no
+                            obligation. We're here to help you find the right solution for your needs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="eyebrow">GLOBAL REACH</span>
+                <h2 class="mb-3">Find us around the <span class="text-gradient">World</span></h2>
+                <p class="lead-text">With 500+ locations across 100+ cities, there's a WORKSPACE near you</p>
+            </div>
+
+            <div class="card-grid" style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));">
+                <div style="text-align: center; padding: 2rem;">
+                    <h3 class="font-display font-bold text-primary" style="font-size: 3rem;">150+</h3>
+                    <p class="font-semibold text-secondary">North America</p>
+                </div>
+                <div style="text-align: center; padding: 2rem;">
+                    <h3 class="font-display font-bold text-primary" style="font-size: 3rem;">120+</h3>
+                    <p class="font-semibold text-secondary">Europe</p>
+                </div>
+                <div style="text-align: center; padding: 2rem;">
+                    <h3 class="font-display font-bold text-primary" style="font-size: 3rem;">150+</h3>
+                    <p class="font-semibold text-secondary">Asia Pacific</p>
+                </div>
+                <div style="text-align: center; padding: 2rem;">
+                    <h3 class="font-display font-bold text-primary" style="font-size: 3rem;">50+</h3>
+                    <p class="font-semibold text-secondary">Latin America</p>
+                </div>
+                <div style="text-align: center; padding: 2rem;">
+                    <h3 class="font-display font-bold text-primary" style="font-size: 3rem;">30+</h3>
+                    <p class="font-semibold text-secondary">Middle East & Africa</p>
+                </div>
+            </div>
+
+            <div class="text-center mt-4">
+                <a href="locations.html" class="btn btn-primary">View All Locations</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to get started?</h2>
+            <p>Join thousands of businesses already working at WORKSPACE</p>
+            <a href="membership.html" class="btn" style="background: white; color: var(--primary-color);">View
+                Membership Plans</a>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>WORKSPACE</h3>
+                    <p style="color: rgba(255, 255, 255, 0.7);">Making work work better for everyone.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-icon">📘</a>
+                        <a href="#" class="social-icon">🐦</a>
+                        <a href="#" class="social-icon">📷</a>
+                        <a href="#" class="social-icon">🔗</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Solutions</h3>
+                    <ul class="footer-links">
+                        <li><a href="workspace-solutions.html">Private Office</a></li>
+                        <li><a href="workspace-solutions.html">Coworking</a></li>
+                        <li><a href="workspace-solutions.html">Enterprise</a></li>
+                        <li><a href="membership.html">Membership</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="locations.html">Locations</a></li>
+                        <li><a href="who-we-serve.html">Who We Serve</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 WORKSPACE. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeLoginModal()">&times;</button>
+            <h2>Welcome Back</h2>
+            <form>
+                <div class="form-group">
+                    <label for="loginEmail">Email Address</label>
+                    <input type="email" id="loginEmail" placeholder="your@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" placeholder="••••••••" required>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Sign In</button>
+                <p style="text-align: center; margin-top: 1rem; color: var(--text-secondary);">
+                    Don't have an account? <a href="contact.html"
+                        style="color: var(--primary-color); font-weight: 600;">Get Started</a>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function openLoginModal() {
+            document.getElementById('loginModal').classList.add('active');
+        }
+        function closeLoginModal() {
+            document.getElementById('loginModal').classList.remove('active');
+        }
+        window.onclick = function (event) {
+            if (event.target == document.getElementById('loginModal')) closeLoginModal();
+        }
+
+        // Auto-select interest based on URL parameter
+        window.addEventListener('DOMContentLoaded', (event) => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const interestParam = urlParams.get('interest');
+            if (interestParam) {
+                const select = document.getElementById('interest');
+                if (select) {
+                    const option = select.querySelector(`option[value="${interestParam}"]`);
+                    if (option) select.value = interestParam;
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
