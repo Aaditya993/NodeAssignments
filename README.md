@@ -32,11 +32,17 @@ Assignment 4: Route Handling Server
 
 Assignment 5: Personal Portfolio Server
 
-<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/8b0ae478-a4c3-4a42-acf0-dffa9721bcc1" />
-<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/345a0a36-6c68-4349-aa8b-44f5c67faf3b" />
-<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/dd6db12a-0ffc-4fd5-a4ad-9a6917ac1f14" />
-<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/ad200b10-7c46-4beb-b940-6b2ea2ff747f" />
-<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/6f5edba6-4050-46f2-b59e-8542a8e64fe5" />
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/2af120b9-3310-4caf-8b49-ab37ad5d3483" />
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/98164eee-4430-413a-8cc6-b41936bff4a5" />
+
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/fd2acc19-f970-4350-be08-71cb12031dee" />
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/5264cc48-74c9-4d45-bc9d-5fe8e067c550" />
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/6b83e24d-d9a7-4a9e-8860-120cb338d974" />
+
+
+
+
+
 
 Thank You, i tried to add some filling details from myside, i mean for portfolio, about page and info page, for assignment 4 and 5
 
