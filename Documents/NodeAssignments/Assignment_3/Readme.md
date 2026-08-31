@@ -15,3 +15,18 @@ This project demonstrates the core capabilities of the Node.js `fs` (File System
    \`node index.js\`
 
 ## Output Screenshots
+
+File created 
+
+<img width="1407" height="832" alt="Screenshot 2026-08-25 at 7 25 11 PM" src="https://github.com/user-attachments/assets/ae723a6f-5bf7-4aca-b095-350182e08b2f" />
+
+File Deleted
+
+<img width="1270" height="526" alt="image" src="https://github.com/user-attachments/assets/a4912c43-2674-4e97-bcbe-95092136b8dc" />
+
+TXT File
+
+<img width="604" height="333" alt="Screenshot 2026-08-25 at 7 25 17 PM" src="https://github.com/user-attachments/assets/30b17ed8-44dd-435f-8715-744764cc24d9" />
+
+
+
