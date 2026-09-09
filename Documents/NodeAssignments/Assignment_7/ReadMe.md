@@ -17,7 +17,8 @@ This repository contains three Express.js applications demonstrating dynamic rou
 * **Test URL:** `http://localhost:3000/student/101`
 
 ### Browser Output:
-*(Drag and drop your Assignment 1 browser screenshot here)*
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/76e9c6b6-66bf-4ce8-aca9-da5ff9a08bbf" />
+
 
 ---
 
@@ -30,10 +31,12 @@ This repository contains three Express.js applications demonstrating dynamic rou
   * `http://localhost:3000/search` (To test empty state)
 
 ### Browser Output (Valid Query):
-*(Drag and drop your Assignment 2 populated screenshot here)*
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/4b0f9388-dee5-416d-ae89-05de8656aa2c" />
+
+
 
 ### Browser Output (Empty Query):
-*(Drag and drop your Assignment 2 empty state screenshot here)*
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/5d555f87-6a41-4cc7-bab8-475608262eda" />
 
 ---
 
@@ -44,4 +47,4 @@ This repository contains three Express.js applications demonstrating dynamic rou
 * **Test URL:** `http://localhost:3000/student/101?name=Aaditya&course=FullStack`
 
 ### Browser Output:
-*(Drag and drop your Assignment 3 combined screenshot here)*
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/7d72106c-acbb-424e-badf-97e9f84f3d8f" />
