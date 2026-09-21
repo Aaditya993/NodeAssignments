@@ -44,5 +44,5 @@ This repository extends the previous Express.js and MongoDB application to inclu
 ## 4. Error Handling
 **Objective:** Appropriately handle invalid MongoDB IDs and requests for users that do not exist (e.g., trying to delete a user that was already deleted).
 
-### Thunder Client Error Response (404 User Not Found or 400 Invalid ID):
+### Thunder Client Error Response (404 User Not Found ):
 ![alt text](image-5.png)
